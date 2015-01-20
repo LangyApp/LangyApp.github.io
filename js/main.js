@@ -70,4 +70,32 @@ $(document).on('ready', function(){
 			event.preventDefault();
 		}
 	});
+
+	// Analtics
+
+	$('#button-download').on('click', function(){
+		ga('send', 'event', 'button', 'click', 'download');
+	});
+	$('#button-github').on('click', function(){
+		ga('send', 'event', 'button', 'click', 'github');
+	});
+	$('#button-donate').on('click', function(){
+		ga('send', 'event', 'button', 'click', 'donate');
+	});
+	$('#button-email').on('click', function(){
+		ga('send', 'event', 'button', 'click', 'email');
+	});
+
+	$('#santa-github').on('click', function(){
+		ga('send', 'event', 'button', 'click', 'Santangelo', 'github');
+	});
+	$('#santa-twitter').on('click', function(){
+		ga('send', 'event', 'button', 'click', 'Santangelo', 'twitter');
+	});
+	$('#rou-github').on('click', function(){
+		ga('send', 'event', 'button', 'click', 'Rougier', 'github');
+	});
+	$('#rou-twitter').on('click', function(){
+		ga('send', 'event', 'button', 'click', 'Rougier', 'twitter');
+	});
 });
