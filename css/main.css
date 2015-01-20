@@ -164,7 +164,7 @@ small {
   opacity: 0.8; }
 
 .apps {
-  margin: 50px 50px 0;
+  margin: 50px 0 0;
   text-align: center; }
   .apps > div {
     position: relative;
@@ -278,7 +278,7 @@ small {
       .authors .nico a:hover, .authors .nico a:active, .authors .nico a:focus {
         opacity: 1; }
 
-@media only screen and (max-width: 1600px) {
+@media only screen and (max-width: 1680px) {
   .apps .code,
   .hide-small {
     display: none; } }
