@@ -124,7 +124,7 @@ body {
 }
 
 .wrapper {
-    width: 960px;
+    width: 1000px;
     margin: 0 auto;
 
     &.lg {
@@ -367,6 +367,9 @@ small {
 }
 
 @media only screen and (max-width: 1680px) {
+    .wrapper {
+        width: 960px;
+    }
     .apps .code,
     .hide-small {
         display: none;
